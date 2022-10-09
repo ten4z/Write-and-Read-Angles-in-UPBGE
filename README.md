@@ -15,5 +15,5 @@ own.localOrientation = xyz<br>
 Para exibir a rotação em graus:<br>
 print(degrees(xyz[2]))<br>
 
-ariável de depuração para exibir o ângulo<br>
+Variável de depuração para exibir o ângulo<br>
 own['angle'] = degrees(xyz[2])<br>
