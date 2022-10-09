@@ -6,7 +6,7 @@ Main Code:
 Para obter as informações de orientação:<br>
 xyz = own.localOrientation.to_euler() <br>
 
-Para aplicar uma rotação de 20 graus<br>
+Para aplicar uma rotação de 45 graus<br>
 xyz.z = radians(45)<br>
 
 Para aplicar a rotação local:<br>
