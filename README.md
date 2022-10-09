@@ -13,7 +13,7 @@ Para aplicar a rotação local:<br>
 own.localOrientation = xyz<br>
 
 Para exibir a rotação em graus:<br>
-print(degrees(xyz[2]))<br>
+print(degrees(xyz.z))<br>
 
 Variável de depuração para exibir o ângulo<br>
-own['angle'] = degrees(xyz[2])<br>
+own['angle'] = degrees(xyz.z)<br>
