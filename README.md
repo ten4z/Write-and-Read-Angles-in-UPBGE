@@ -9,7 +9,7 @@ xyz = own.localOrientation.to_euler() <br>
 Para aplicar uma rotação de 20 graus<br>
 xyz.z = radians(45)<br>
 
-Para aplicar a rotação global:<br>
+Para aplicar a rotação local:<br>
 own.localOrientation = xyz<br>
 
 Para exibir a rotação em graus:<br>
