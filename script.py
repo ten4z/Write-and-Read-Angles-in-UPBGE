@@ -32,9 +32,9 @@ class Game():
         # Para aplicar a rotação local:
         own.localOrientation = xyz
         # Para exibir a rotação em graus:
-        print(degrees(xyz[2]))
+        print(degrees(xyz.z))
         # variável de depuração para exibir o ângulo
-        own['angle'] = degrees(xyz[2])
+        own['angle'] = degrees(xyz.z)
 
 def run():
     # Cria o objeto de Game
